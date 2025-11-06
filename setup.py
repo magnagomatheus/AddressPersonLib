@@ -13,7 +13,12 @@ setup(
     author="Matheus de Oliveira Magnago",
     author_email="magnagomatheus7@gmail.com",
     url="https://github.com/magnagomatheus/AddressPersonLib.git",   
-    packages=find_packages(),
+    packages=[
+        'Lib',
+        'Lib.model',
+        'Lib.repository',
+        'Lib.service'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
